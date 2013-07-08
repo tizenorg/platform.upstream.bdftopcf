@@ -1,0 +1,8 @@
+Change-Id: I754ca93eb8f482ff7341153b370b7afca41af6a7
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 10:05:53 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4643
+Project: platform/upstream/bdftopcf
+Branch: refs/heads/tizen
