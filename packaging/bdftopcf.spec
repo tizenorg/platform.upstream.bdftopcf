@@ -1,5 +1,5 @@
 Name:           bdftopcf
-Version:        1.0.3
+Version:        1.0.4
 Release:        0
 License:        MIT
 Summary:        Font compiler for the X server and font server
@@ -24,7 +24,7 @@ slowly) on other machines.
 cp %{SOURCE1001} .
 
 %build
-%configure
+%autogen
 make %{?_smp_mflags}
 
 %install
