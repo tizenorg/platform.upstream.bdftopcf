@@ -1,3 +1,5 @@
+%bcond_with x
+
 Name:           bdftopcf
 Version:        1.0.4
 Release:        0
@@ -10,6 +12,10 @@ Source1001: 	bdftopcf.manifest
 BuildRequires:  pkg-config
 BuildRequires:  pkgconfig(xfont)
 BuildRequires:  pkgconfig(xorg-macros) >= 1.8
+
+%if !%{with x}
+ExclusiveArch:
+%endif
 
 %description
 bdftopcf is a font compiler for the X server and font server. Fonts
